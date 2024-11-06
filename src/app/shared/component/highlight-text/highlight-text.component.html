@@ -1,0 +1,5 @@
+<div>
+    <input type="text" class="form-control"[(ngModel)]="searchText" placeholder="Search text..." />
+  </div>
+  
+  <p appHighlight [appHighlight]="searchText" [fullText]="textContent"></p>
